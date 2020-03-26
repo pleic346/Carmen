@@ -1,47 +1,69 @@
-html{
-    width:100%;
-    height:auto;
-    background-color: black;
-  }
-.logo{
-  right:0;
+html {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px white;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px white;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px yellow;
+}
+
+.logo {
+  right: 0;
   margin-right: 50px;
   margin-top: 50px;
   width: 5%;
-  position:fixed;
-  -webkit-transition: -webkit-transform .6s ease-in-out;
-  transition:         transform .6s ease-in-out;
+  position: fixed;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 }
-.logo:hover{
+
+.logo:hover {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-.work{
-  margin-left:50px;
-  margin-top:25px;
+.work {
+  margin-left: 50px;
+  margin-top: 25px;
   position: absolute;
   color: black;
-	font-size: 30px;
-	-webkit-text-stroke: 1.8px white;
+  font-size: 30px;
+  -webkit-text-stroke: 1.8px white;
   font-family: Impact;
 }
-.about{
-  margin-left:200px;
-  margin-top:25px;
+.about {
+  margin-left: 200px;
+  margin-top: 25px;
   position: absolute;
   color: black;
-	font-size: 30px;
-	-webkit-text-stroke: 1.8px white;
+  font-size: 30px;
+  -webkit-text-stroke: 1.8px white;
   font-family: Impact;
 }
 
-.contact{
-  margin-left:350px;
-  margin-top:25px;
+.contact {
+  margin-left: 350px;
+  margin-top: 25px;
   position: absolute;
   color: black;
-	font-size: 30px;
-	-webkit-text-stroke: 1.8px white;
+  font-size: 30px;
+  -webkit-text-stroke: 1.8px white;
   font-family: Impact;
+}
+.gif {
+  widows: 100%;
+  height: auto;
 }
