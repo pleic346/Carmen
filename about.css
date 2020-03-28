@@ -5,21 +5,21 @@ html{
   }
 
 a:hover {
-  text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px white;
-}
-a:visited {
-  text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px white;
-}
-a:focus {
-  text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px yellow;
-}
-
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px yellow;
+  }
+  
   .logo{
     right:0;
     margin-right: 50px;
@@ -78,4 +78,4 @@ a:focus {
     position:absolute;
     z-index: inherit -5;
     background-color: white;
-  }
+  } 

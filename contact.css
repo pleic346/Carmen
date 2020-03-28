@@ -5,21 +5,21 @@ html{
   }
 
 a:hover {
-  text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px white;
-}
-a:visited {
-  text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px white;
-}
-a:focus {
-  text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px yellow;
-}
-
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px yellow;
+  }
+  
   .logo{
     right:0;
     margin-right: 50px;
@@ -64,7 +64,7 @@ a:focus {
   .side{
     position:absolute;
     bottom:50px;
-    margin-left: -15px;
+    margin-left: -30px;
     color: black;
     font-size: 50px;
     font-family: Impact;
