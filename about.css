@@ -88,3 +88,7 @@ a:hover {
     z-index: inherit -5;
     background-color: white;
   } 
+
+  .mail {
+    right:30px;
+  }
