@@ -63,10 +63,10 @@ a:focus {
   }
   .side{
     position:fixed;
-    bottom:50px;
-    margin-left: -15px;
+    bottom:60px;
+    margin-left: -32px;
     color: black;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Impact;
     z-index: 5;
     transform: rotate(-90deg);
