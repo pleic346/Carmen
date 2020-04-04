@@ -22,7 +22,14 @@ html{
 strong {
   color: greenyellow;
   -webkit-text-stroke: 0.1px black;
-  
+}
+
+b{
+  font-size: 22px;
+  color:rgb(251, 255, 0);
+}
+h2{
+  color:white;
 }
 .work {
   transition:transform 0.25s ease;

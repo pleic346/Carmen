@@ -3,6 +3,7 @@ html {
     height:auto;
     background-color: black;
   }
+
   .work {
     transition:transform 0.25s ease;
   }
@@ -93,10 +94,10 @@ html {
   }
   .side{
     position:fixed;
-    bottom:50px;
-    margin-left: -15px;
+    bottom:70px;
+    margin-left: -40px;
     color: black;
-    font-size: 50px;
+    font-size: 36px;
     font-family: Impact;
     z-index: 5;
     transform: rotate(-90deg);
