@@ -4,20 +4,51 @@ html{
     background-color: black;
   }
 
-a:hover {
+  .work {
+    transition:transform 0.25s ease;
+  }
+  
+  .work:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+  }
+  
+  .about {
+    transition:transform 0.25s ease;
+  }
+  
+  .about:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+  }
+  
+  .contact {
+    transition:transform 0.25s ease;
+  }
+  
+  .contact:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+  }
+  
+  a {
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px red;
   }
   a:visited {
     text-decoration: none;
-    color: black;
-    -webkit-text-stroke: 1.8px white;
   }
+  
   a:focus {
     text-decoration: none;
     color: black;
-    -webkit-text-stroke: 1.8px yellow;
+    -webkit-text-stroke: 1.8px white;
   }
 
   .logo{
@@ -83,172 +114,39 @@ a:hover {
   #cor {
     opacity: 0.5;
   }
-  .mail{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:200px;
-    margin-top: 200px;
-  }
-  .uno{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:950px;
-    margin-top: 710px;
-  }
-  .dos{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:620px;
-    margin-top: 648px;
-  }
-  .tres{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:60px;
-    margin-top: 300px;
-  }
-  .cuatro{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:500px;
-    margin-top: 500px;
-  }
-  .cinco{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:500px;
-    margin-top: 350px;
-  }
-  .seis{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:290px;
-    margin-top: 550px;
-  }
-  .siete{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    right:450px;
-    margin-top: 200px;
-  }
-  .ocho{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    right:320px;
-    margin-top: 500px;
-  }
-  .nueve{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:420px;
-    margin-top: 200px;
-  }
-  .diez{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    right:590px;
-    margin-top: 470px;
-  }
-  .once{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:440px;
-    margin-top: 688px;
-  }
-  .doce{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:80px;
-    margin-top: 470px;
-  }
-  .trece{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    right:80px;
-    margin-top: 450px;
-  }
-  .catorce{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:300px;
-    margin-top: 370px;
-  }
-  .quince{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    right:180px;
-    margin-top: 200px;
-  }
-  .dieciseis{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:800px;
-    margin-top: 650px;
-  }
-  .diecisiete{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:199px;
-    margin-top: 655px;
+  .email{
+    position: absolute;
+    top:10%;
+    right:34.5%;
+   font-family: Impact;
+    color:white;
+    font-size: 200px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    -webkit-text-stroke: 0.4px black;
   }
 
-  .dieciocho{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    right:200px;
-    margin-top: 650px;
+  .email {
+    transition:transform 0.25s ease;
   }
-  .diecinueve{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
-    position:absolute;
-    margin-left:650px;
-    margin-top: 250px;
+  
+  .email:hover {
+    -webkit-transform:scale(2.1); /* or some other value */
+    transform:scale(2.1);
   }
-  .veinte{
-    display:block;
-    margin: 0 auto;
-    width: 5%;
+
+  .bio{
     position:absolute;
-    right:400px;
-    margin-top: 350px;
+    width:150px;
+    height:10px;
+    top:50%;
+    left:50%;
+    margin-top: 200px;
+    margin-left: -75px;
+    font-family: Impact;
+    color:magenta;
+    font-size: 11px;
+    word-spacing: 2px;
+    -webkit-text-stroke: 0.1px black;
   }
+  

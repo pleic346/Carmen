@@ -3,21 +3,51 @@ html {
   height: auto;
   background-color: black;
 }
+.work {
+  transition:transform 0.25s ease;
+}
 
+.work:hover {
+  -webkit-transform:scale(1.1); /* or some other value */
+  transform:scale(1.1);
+}
+
+.about {
+  transition:transform 0.25s ease;
+}
+
+.about:hover {
+  -webkit-transform:scale(1.1); /* or some other value */
+  transform:scale(1.1);
+}
+
+.contact {
+  transition:transform 0.25s ease;
+}
+
+.contact:hover {
+  -webkit-transform:scale(1.1); /* or some other value */
+  transform:scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1.8px white;
+}
 a:hover {
   text-decoration: none;
   color: black;
-  -webkit-text-stroke: 1.8px white;
+  -webkit-text-stroke: 1.8px yellow;
 }
 a:visited {
   text-decoration: none;
-  color: black;
-  -webkit-text-stroke: 1.8px white;
 }
+
 a:focus {
   text-decoration: none;
   color: black;
-  -webkit-text-stroke: 1.8px yellow;
+  -webkit-text-stroke: 1.8px white;
 }
 
 .logo {
