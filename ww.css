@@ -94,10 +94,10 @@ html {
   }
   .side{
     position:fixed;
-    bottom:70px;
+    bottom:83px;
     margin-left: -40px;
     color: black;
-    font-size: 36px;
+    font-size: 29px;
     font-family: Impact;
     z-index: 5;
     transform: rotate(-90deg);
