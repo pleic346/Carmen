@@ -2,6 +2,7 @@ html {
     width:100%;
     height:auto;
     background-color: black;
+    cursor:auto;
   }
 
   .work {
@@ -132,11 +133,33 @@ html {
     padding:25px;
   }
 
-img {
-    transition:transform 0.25s ease;
+strong{
+    font-size: 55px;
+    font-family: Impact;
+    letter-spacing: 1.5px;
+    color:black;
+    -webkit-text-stroke: 1px white;
+
+}
+.des {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px; 
+    color:rgb(224, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: Impact;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
 }
 
-img:hover {
-    -webkit-transform:scale(1.5); /* or some other value */
-    transform:scale(1.5);
+b{
+    color:grey;
+    font-size: 20px;
 }
