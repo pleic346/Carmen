@@ -1,7 +1,8 @@
 html {
-    width:100%;
+    width:100px;
     height:auto;
     background-color: black;
+    cursor:auto;
   }
   .work {
     transition:transform 0.25s ease;
