@@ -148,4 +148,102 @@ a:focus {
     background-color: white;
   } 
 
-@media  
+  @media (min-width: 400px) and (max-width: 1024px) {
+
+    .work {
+      margin-left: 25px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 22px;
+      -webkit-text-stroke: 1.8px white;
+      font-family: Impact;
+      display:flex;
+    }
+    .about {
+      margin-left: 110px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 22px;
+      -webkit-text-stroke: 1.8px white;
+      font-family: Impact;
+    }
+    
+    .contact {
+      margin-left: 195px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 22px;
+      -webkit-text-stroke: 1.8px white;
+      font-family: Impact;
+    }
+  
+    .logo {
+      right: 0;
+      margin-right: 25px;
+      margin-top: 20px;;
+      width: 9%;
+      position: fixed;
+      -webkit-transition: -webkit-transform 0.6s ease-in-out;
+      transition: transform 0.6s ease-in-out;
+    }
+
+    .side{
+      position:fixed;
+      bottom:50px;
+      margin-left: -15px;
+      color: black;
+      font-size: 40px;
+      font-family: Impact;
+      z-index: 5;
+      transform: rotate(-90deg);
+    }
+    .rectangle {
+      height: 152px;
+      width: 70.4px;
+      bottom:35px;
+      position:fixed;
+      z-index: inherit -5;
+      background-color: white;
+    }
+
+    .container{
+      margin-top: 150px;
+      width:95%;
+      max-width: 100%;
+      height:100%;
+      position:absolute;
+      display:flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .me{
+      position: absolute;
+      top: 45%;
+      left: 40%;
+      width: 10%;
+      height: auto;
+    }
+
+    .bio{
+      position: absolute;
+      top: 45%;
+      width: 350px;
+      height: auto;
+      margin-top: 180px; /* Half the height */
+      margin-left: 100px;
+      font-family: Impact;
+      color:white;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      -webkit-text-stroke: 0.4px black;
+    }
+    
+
+  }

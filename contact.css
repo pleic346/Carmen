@@ -157,3 +157,115 @@ html{
     -webkit-text-stroke: 0.1px black;
   }
   
+  @media (min-width: 400px) and (max-width: 1024px) {
+
+    html {
+      overflow:hidden;
+
+    }
+
+    .work {
+      margin-left: 25px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 22px;
+      -webkit-text-stroke: 1.8px white;
+      font-family: Impact;
+      display:flex;
+    }
+    .about {
+      margin-left: 110px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 22px;
+      -webkit-text-stroke: 1.8px white;
+      font-family: Impact;
+    }
+    
+    .contact {
+      margin-left: 195px;
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: 22px;
+      -webkit-text-stroke: 1.8px white;
+      font-family: Impact;
+    }
+  
+    .logo {
+      right: 0;
+      margin-right: 25px;
+      margin-top: 20px;;
+      width: 9%;
+      position: fixed;
+      -webkit-transition: -webkit-transform 0.6s ease-in-out;
+      transition: transform 0.6s ease-in-out;
+    }
+
+    .side{
+      position:fixed;
+      bottom:55px;
+      margin-left: -25px;
+      color: black;
+      font-size: 35px;
+      font-family: Impact;
+      z-index: 5;
+      transform: rotate(-90deg);
+    }
+    .rectangle {
+      height: 152px;
+      width: 70.4px;
+      bottom:35px;
+      position:fixed;
+      z-index: inherit -5;
+      background-color: white;
+    }
+
+    .container{
+      margin-top: 150px;
+      width:95%;
+      max-width: 100%;
+      height:100%;
+      position:absolute;
+      display:flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .email{
+      position: absolute;
+      top:10%;
+      left:25%;
+      font-family: Impact;
+      color:white;
+      font-size: 100px;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      -webkit-text-stroke: 0.4px black;
+    }
+
+    .email:hover {
+      -webkit-transform:scale(1.8); /* or some other value */
+      transform:scale(1.8);
+    }
+  
+    .bio{
+      position:absolute;
+      width:150px;
+      height:10px;
+      top:15%;
+      left:50%;
+      margin-top: 200px;
+      margin-left: -75px;
+      font-family: Impact;
+      color:magenta;
+      font-size: 11px;
+      word-spacing: 2px;
+      -webkit-text-stroke: 0.1px black;
+    }
+
+  }
