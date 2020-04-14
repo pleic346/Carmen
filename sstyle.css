@@ -3,11 +3,14 @@ html {
   height: 100px;
   background-color: black;
   cursor:auto;
+  overflow:hidden;
+
 }
 
 body{
   width: 100px;
   height: 100px;
+  overflow:hidden;
 }
 
 .work {

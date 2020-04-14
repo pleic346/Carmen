@@ -3,7 +3,12 @@ html{
     height:100px;
     background-color: black;
     cursor:auto;
-  }
+    overflow:hidden;
+ }
+
+ body{
+  overflow:hidden;
+ }
 
   .work {
     transition:transform 0.25s ease;
