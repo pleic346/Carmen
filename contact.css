@@ -193,7 +193,10 @@ html{
       font-size: 22px;
       -webkit-text-stroke: 0.4px white;
     }
-  
+    *{
+      font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: none;
+    }
     .logo {
       right: 0;
       margin-right: 25px;
@@ -245,11 +248,8 @@ html{
       letter-spacing: 1.5px;
       word-spacing: 2px;
       -webkit-text-stroke: 0.4px black;
-    }
-
-    .email:hover {
-      -webkit-transform:scale(1.8); /* or some other value */
-      transform:scale(1.8);
+      transition:none;
+      transform:none;
     }
   
     .bio{
