@@ -136,19 +136,14 @@ html {
 
   @media (min-width: 400px) and (max-width: 1024px) {
 
-    *{
-      font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px white;
-
-    }
-
     .work {
       margin-left: 25px;
       margin-top: 0;
       position: absolute;
       color: black;
       font-size: 22px;
-      -webkit-text-stroke: 1.8px white;
+      font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.5px white;
       display:flex;
     }
     .about {
@@ -157,7 +152,8 @@ html {
       position: absolute;
       color: black;
       font-size: 22px;
-      -webkit-text-stroke: 1.8px white;
+      font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.5px white;
     }
     
     .contact {
@@ -166,7 +162,8 @@ html {
       position: absolute;
       color: black;
       font-size: 22px;
-      -webkit-text-stroke: 1.8px white;
+      font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.5px white;
     }
   
     .logo {
@@ -184,6 +181,8 @@ html {
       bottom:40px;
       margin-left: -8px;
       color: black;
+      font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.5px white;
       font-size: 40px;
       z-index: 5;
       transform: rotate(-90deg);

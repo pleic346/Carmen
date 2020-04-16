@@ -159,11 +159,6 @@ html{
   
   @media (min-width: 400px) and (max-width: 1024px) {
 
-    *{
-      font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px red;
-    }
-
     html {
       overflow-x:hidden;
       overflow-y: auto;
@@ -175,7 +170,8 @@ html{
       margin-top: 0;
       position: absolute;
             font-size: 22px;
-      -webkit-text-stroke: 0.4px white;
+            font-family: 'Anton', sans-serif;
+            -webkit-text-stroke: 0.5px red;
       display:flex;
     }
     .about {
@@ -183,7 +179,8 @@ html{
       margin-top: 0;
       position: absolute;
       font-size: 22px;
-      -webkit-text-stroke: 0.4px white;
+      font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.5px red;
     }
     
     .contact {
@@ -191,12 +188,10 @@ html{
       margin-top: 0;
       position: absolute;
       font-size: 22px;
-      -webkit-text-stroke: 0.4px white;
-    }
-    *{
       font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: none;
+      -webkit-text-stroke: 0.5px red;
     }
+
     .logo {
       right: 0;
       margin-right: 25px;
@@ -208,6 +203,7 @@ html{
     }
 
     .side{
+      font-family: 'Anton', sans-serif;
       position:fixed;
       bottom:55px;
       margin-left: -25px;
@@ -223,6 +219,7 @@ html{
       position:fixed;
       z-index: inherit -5;
       background-color: white;
+      font-family: 'Anton', sans-serif;
     }
 
     .container{
@@ -242,7 +239,7 @@ html{
       position: absolute;
       top:10%;
       left:23%;
-      font-family: Impact;
+      font-family: 'Anton', sans-serif;
       color:white;
       font-size: 100px;
       letter-spacing: 1.5px;
@@ -252,7 +249,7 @@ html{
       transform:none;
     }
   
-    .bio{
+    .bio {
       position:absolute;
       width:150px;
       height:10px;
@@ -264,6 +261,7 @@ html{
       font-size: 11px;
       word-spacing: 2px;
       -webkit-text-stroke: none;
+      font-family: 'Anton', sans-serif;
     }
 
   }

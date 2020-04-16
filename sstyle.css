@@ -128,18 +128,14 @@ a:focus {
 
 @media (min-width: 400px) and (max-width: 1024px) {
 
-  *{
-    font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
-  }
   .work {
     margin-left: 25px;
     margin-top: 0;
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 0.2px white;
     font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
         display:flex;
   }
   .about {
@@ -148,8 +144,8 @@ a:focus {
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 0.2px white;
     font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
     }
   
   .contact {
@@ -158,8 +154,8 @@ a:focus {
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 0.2px white;
     font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px white;
     }
 
   .logo {
@@ -188,7 +184,6 @@ a:focus {
     top:50%;
     left:10%;
       color: white;
-      -webkit-text-stroke: 0.3px black;
       font-size: 20px;
       letter-spacing: 1px;
       font-family: 'Anton', sans-serif;
