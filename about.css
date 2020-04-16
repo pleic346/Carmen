@@ -152,6 +152,10 @@ a:focus {
 
   @media (min-width: 400px) and (max-width: 1024px) {
 
+    *{
+      font-family: 'Anton', sans-serif;
+    }
+
     html{
       overflow-x:hidden;
       overflow-y:auto;
@@ -163,7 +167,6 @@ a:focus {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact;
       display:flex;
     }
     .about {
@@ -173,7 +176,6 @@ a:focus {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact;
     }
     
     .contact {
@@ -183,7 +185,6 @@ a:focus {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact;
     }
   
     .logo {
@@ -202,7 +203,6 @@ a:focus {
       margin-left: -15px;
       color: black;
       font-size: 40px;
-      font-family: Impact;
       z-index: 5;
       transform: rotate(-90deg);
     }
@@ -243,7 +243,6 @@ a:focus {
       height: auto;
       margin-top: 220px; /* Half the height */
       margin-left: 80px;
-      font-family: Impact;
       color:white;
       font-size: 12px;
       letter-spacing: 0.5px;

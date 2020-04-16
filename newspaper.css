@@ -161,6 +161,10 @@ html {
 
 
   @media (min-width: 400px) and (max-width: 1024px) {
+    *{
+      font-family: 'Anton', sans-serif;
+    }
+
     html{
       width:100%;
       overflow-x: hidden;
@@ -173,7 +177,6 @@ html {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact, Charcoal, sans-serif;
       display:flex;
     }
     .about {
@@ -183,7 +186,6 @@ html {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact, Charcoal, sans-serif;
     }
     
     .contact {
@@ -193,7 +195,6 @@ html {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact, Charcoal, sans-serif;
     }
   
     .logo {
@@ -212,7 +213,6 @@ html {
       margin-left: -30px;
       color: black;
       font-size: 28px;
-      font-family: Impact, Charcoal, sans-serif;
       z-index: 5;
       transform: rotate(-90deg);
     }
