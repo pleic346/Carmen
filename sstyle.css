@@ -137,7 +137,7 @@ a:focus {
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 0.8px white;
+    -webkit-text-stroke: 0.4px white;
     font-family: 'Anton', sans-serif;
         display:flex;
   }
@@ -147,7 +147,7 @@ a:focus {
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 0.8px white;
+    -webkit-text-stroke: 0.4px white;
     font-family: 'Anton', sans-serif;
     }
   
@@ -157,7 +157,7 @@ a:focus {
     position: absolute;
     color: black;
     font-size: 22px;
-    -webkit-text-stroke: 0.8px white;
+    -webkit-text-stroke: 0.4px white;
     font-family: 'Anton', sans-serif;
     }
 
