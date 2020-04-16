@@ -161,7 +161,7 @@ html{
 
     *{
       font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.4px white;
+      -webkit-text-stroke: 0.5px red;
     }
 
     html {
