@@ -71,7 +71,7 @@ html {
     color: black;
       font-size: 30px;
       -webkit-text-stroke: 1.8px white;
-    font-family: Impact;
+    font-family: Impact, Charcoal, sans-serif;
   }
   .about{
     margin-left:200px;
@@ -80,7 +80,7 @@ html {
     color: black;
       font-size: 30px;
       -webkit-text-stroke: 1.8px white;
-    font-family: Impact;
+    font-family: Impact, Charcoal, sans-serif;
   }
   
   .contact{
@@ -90,7 +90,7 @@ html {
     color: black;
       font-size: 30px;
       -webkit-text-stroke: 1.8px white;
-    font-family: Impact;
+    font-family: Impact, Charcoal, sans-serif;
   }
   .side{
     position:fixed;
@@ -98,7 +98,7 @@ html {
     margin-left: -15px;
     color: black;
     font-size: 50px;
-    font-family: Impact;
+    font-family: Impact, Charcoal, sans-serif;
     z-index: 5;
     transform: rotate(-90deg);
   }
@@ -141,7 +141,7 @@ html {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact;
+      font-family: Impact, Charcoal, sans-serif;
       display:flex;
     }
     .about {
@@ -151,7 +151,7 @@ html {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact;
+      font-family: Impact, Charcoal, sans-serif;
     }
     
     .contact {
@@ -161,7 +161,7 @@ html {
       color: black;
       font-size: 22px;
       -webkit-text-stroke: 1.8px white;
-      font-family: Impact;
+      font-family: Impact, Charcoal, sans-serif;
     }
   
     .logo {
@@ -180,7 +180,7 @@ html {
       margin-left: -15px;
       color: black;
       font-size: 40px;
-      font-family: Impact;
+      font-family: Impact, Charcoal, sans-serif;
       z-index: 5;
       transform: rotate(-90deg);
     }
