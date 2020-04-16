@@ -161,6 +161,7 @@ html{
 
     *{
       font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.4px white;
     }
 
     html {
@@ -173,27 +174,24 @@ html{
       margin-left: 25px;
       margin-top: 0;
       position: absolute;
-      color: black;
-      font-size: 22px;
-      -webkit-text-stroke: 1.8px white;
+            font-size: 22px;
+      -webkit-text-stroke: 0.4px white;
       display:flex;
     }
     .about {
       margin-left: 110px;
       margin-top: 0;
       position: absolute;
-      color: black;
       font-size: 22px;
-      -webkit-text-stroke: 1.8px white;
+      -webkit-text-stroke: 0.4px white;
     }
     
     .contact {
       margin-left: 195px;
       margin-top: 0;
       position: absolute;
-      color: black;
       font-size: 22px;
-      -webkit-text-stroke: 1.8px white;
+      -webkit-text-stroke: 0.4px white;
     }
   
     .logo {
@@ -240,7 +238,7 @@ html{
     .email{
       position: absolute;
       top:10%;
-      left:25%;
+      left:23%;
       font-family: Impact;
       color:white;
       font-size: 100px;

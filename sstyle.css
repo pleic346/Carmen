@@ -130,6 +130,7 @@ a:focus {
 
   *{
     font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.4px white;
   }
   .work {
     margin-left: 25px;
