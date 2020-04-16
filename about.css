@@ -199,8 +199,8 @@ a:focus {
 
     .side{
       position:fixed;
-      bottom:50px;
-      margin-left: -15px;
+      bottom:43px;
+      margin-left: -10px;
       color: black;
       font-size: 40px;
       z-index: 5;
@@ -247,7 +247,6 @@ a:focus {
       font-size: 10px;
       letter-spacing: none;
       word-spacing: none;
-      -webkit-text-stroke: 0.4px black;
     }
     
 
