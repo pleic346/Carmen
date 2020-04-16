@@ -159,6 +159,9 @@ html{
   
   @media (min-width: 400px) and (max-width: 1024px) {
 
+    *{
+
+    }
     html {
       overflow-x:hidden;
       overflow-y: auto;
@@ -244,8 +247,7 @@ html{
       font-size: 100px;
       letter-spacing: 1.5px;
       word-spacing: 2px;
-      -webkit-text-stroke: 0.4px black;
-      transition:none;
+            transition:none;
       transform:none;
     }
   

@@ -251,7 +251,7 @@ a:focus {
 }
 strong {
   color: greenyellow;
-  -webkit-text-stroke: greenyellow;
+  -webkit-text-stroke: green;
 }
 
 b{
