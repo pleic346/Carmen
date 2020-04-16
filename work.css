@@ -179,14 +179,14 @@ html {
 
     .side{
       position:fixed;
-      bottom:50px;
-      margin-left: -15px;
+      bottom:40px;
+      margin-left: -8px;
       color: black;
       font-size: 40px;
       z-index: 5;
       transform: rotate(-90deg);
     }
-    
+
     .rectangle {
       height: 152px;
       width: 70.4px;
