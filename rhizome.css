@@ -2,6 +2,8 @@ html {
     width:100%;
     height:auto;
     background-color: black;
+    overflow-x: hidden;
+    overflow: auto;
   }
 
   .work {
@@ -94,8 +96,8 @@ html {
   }
   .side{
     position:fixed;
-    bottom:70px;
-    margin-left: -40px;
+    bottom:50px;
+    margin-left: -30px;
     color: black;
     font-size: 36px;
     font-family: Impact;
@@ -132,11 +134,115 @@ html {
     padding:25px;
   }
 
-img {
-    transition:transform 0.25s ease;
+  strong{
+    font-size: 55px;
+    font-family: Impact;
+    letter-spacing: 1.5px;
+    color:black;
+    -webkit-text-stroke: 1px white;
+
+}
+.des {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px; 
+    color:rgb(224, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: Impact;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
-img:hover {
-    -webkit-transform:scale(1.5); /* or some other value */
-    transform:scale(1.5);
+b{
+    color:grey;
+    font-size: 20px;
 }
+
+  @media (min-width: 400px) and (max-width: 1024px) {
+
+    html{
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    }
+    
+        .work {
+          margin-left: 25px;
+          margin-top: 0;
+          position: absolute;
+          color: black;
+          font-size: 22px;
+          -webkit-text-stroke: 1.8px white;
+          font-family: Impact, Charcoal, sans-serif;
+          display:flex;
+        }
+        .about {
+          margin-left: 110px;
+          margin-top: 0;
+          position: absolute;
+          color: black;
+          font-size: 22px;
+          -webkit-text-stroke: 1.8px white;
+          font-family: Impact, Charcoal, sans-serif;
+        }
+        
+        .contact {
+          margin-left: 195px;
+          margin-top: 0;
+          position: absolute;
+          color: black;
+          font-size: 22px;
+          -webkit-text-stroke: 1.8px white;
+          font-family: Impact, Charcoal, sans-serif;
+        }
+      
+        .logo {
+          right: 0;
+          margin-right: 25px;
+          margin-top: 20px;;
+          width: 9%;
+          position: fixed;
+          -webkit-transition: -webkit-transform 0.6s ease-in-out;
+          transition: transform 0.6s ease-in-out;
+        }
+    
+        .side{
+          position:fixed;
+          bottom:50px;
+          margin-left: -15px;
+          color: black;
+          font-size: 25px;
+          font-family: Impact, Charcoal, sans-serif;
+          z-index: 5;
+          transform: rotate(-90deg);
+        }
+        .rectangle {
+          height: 152px;
+          width: 70.4px;
+          bottom:35px;
+          position:fixed;
+          z-index: inherit -5;
+          background-color: white;
+        }
+    
+        .container{
+          margin-top: 150px;
+          width:95%;
+          max-width: 100%;
+          height:100%;
+          position:absolute;
+          display:flex;
+          flex-direction: row;
+          flex-wrap:wrap;
+          justify-content:center;
+          align-items:center;
+        }
+    
+      }
+    

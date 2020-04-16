@@ -2,6 +2,8 @@ html {
     width:100%;
     height:auto;
     background-color: black;
+    overflow-x: hidden;
+    overflow-y:auto;
   }
   .work {
     transition:transform 0.25s ease;
@@ -93,10 +95,10 @@ html {
   }
   .side{
     position:fixed;
-    bottom:50px;
+    bottom:55px;
     margin-left: -15px;
     color: black;
-    font-size: 50px;
+    font-size: 34px;
     font-family: Impact;
     z-index: 5;
     transform: rotate(-90deg);
@@ -130,18 +132,44 @@ html {
     align-self:center;
     padding:25px;
   }
+  strong{
+    font-size: 55px;
+    font-family: Impact;
+    letter-spacing: 1.5px;
+    color:black;
+    -webkit-text-stroke: 1px white;
 
-img {
-    transition:transform 0.25s ease;
+}
+.des {
+    width:100%;
+    height:auto;
+    width:500px;
+    align-self:center;
+    padding:25px; 
+    color:rgb(224, 224, 224);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: Impact;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
-img:hover {
-    -webkit-transform:scale(1.5); /* or some other value */
-    transform:scale(1.5);
+b{
+    color:grey;
+    font-size: 20px;
 }
+
 
 @media (min-width: 400px) and (max-width: 1024px) {
 
+  html{
+    overflow-x: hidden;
+    overflow-y:auto;
+  }
+  
   .work {
     margin-left: 25px;
     margin-top: 0;
@@ -184,10 +212,10 @@ img:hover {
 
   .side{
     position:fixed;
-    bottom:50px;
-    margin-left: -15px;
+    bottom:55px;
+    margin-left: -7px;
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     font-family: Impact;
     z-index: 5;
     transform: rotate(-90deg);

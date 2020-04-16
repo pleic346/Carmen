@@ -3,6 +3,8 @@ html {
     height:auto;
     background-color: black;
     cursor:auto;
+    overflow-x: hidden;
+    overflow-y:auto;
   }
   .work {
     transition:transform 0.25s ease;

@@ -3,6 +3,8 @@ html {
     height:auto;
     background-color: black;
     cursor:auto;
+    overflow-x:hidden;
+    overflow-y:auto;
   }
 
   .work {
@@ -169,6 +171,10 @@ i{
 
 @media (min-width: 400px) and (max-width: 1024px) {
 
+  html{
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
   .work {
     margin-left: 25px;
     margin-top: 0;

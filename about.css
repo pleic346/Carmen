@@ -3,6 +3,8 @@ html{
     height:auto;
     background-color: black;
     cursor:auto;
+    overflow-x: hidden;
+    overflow-y:auto;
   }
 
 .bio{
@@ -82,8 +84,8 @@ a:focus {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 280px;
-    height: 280px;
+    width: 20%;
+    height: 20%;
     margin-top: -220px; /* Half the height */
     margin-left: -140px;
   }
@@ -150,6 +152,10 @@ a:focus {
 
   @media (min-width: 400px) and (max-width: 1024px) {
 
+    html{
+      overflow-x:hidden;
+      overflow-y:auto;
+    }
     .work {
       margin-left: 25px;
       margin-top: 0;
@@ -226,7 +232,7 @@ a:focus {
       position: absolute;
       top: 45%;
       left: 40%;
-      width: 10%;
+      width: 5%;
       height: auto;
     }
 
@@ -235,13 +241,13 @@ a:focus {
       top: 45%;
       width: 350px;
       height: auto;
-      margin-top: 180px; /* Half the height */
-      margin-left: 100px;
+      margin-top: 220px; /* Half the height */
+      margin-left: 80px;
       font-family: Impact;
       color:white;
       font-size: 12px;
-      letter-spacing: 1.5px;
-      word-spacing: 2px;
+      letter-spacing: 0.5px;
+      word-spacing: 1px;
       -webkit-text-stroke: 0.4px black;
     }
     
