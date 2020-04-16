@@ -263,7 +263,7 @@ html{
       color:magenta;
       font-size: 11px;
       word-spacing: 2px;
-      -webkit-text-stroke: 0.1px black;
+      -webkit-text-stroke: none;
     }
 
   }
