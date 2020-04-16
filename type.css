@@ -168,6 +168,8 @@ b{
 
     *{
       font-family: 'Anton', sans-serif;
+      -webkit-text-stroke: 0.5px white;
+
     }
 
     html{

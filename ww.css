@@ -174,9 +174,11 @@ i{
 
 @media (min-width: 400px) and (max-width: 1024px) {
 
+
   *{
     font-family: 'Anton', sans-serif;
-  }
+    -webkit-text-stroke: 0.5px white;
+}
 
   html{
   Width:100%;
