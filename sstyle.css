@@ -137,6 +137,15 @@ a:focus {
 
 @media (min-width: 400px) and (max-width: 1024px) {
 
+  * {
+    font-family: Impacto, Impact, sans-serif;
+  }
+  @font-face {
+    font-family: Impacto;
+    font-weight: bold;
+    src: url(data:font/ttf;base64,AAEAAAAXAQ...);
+  }
+
   .work {
     margin-left: 25px;
     margin-top: 0;
