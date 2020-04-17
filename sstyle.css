@@ -130,9 +130,6 @@ a:focus {
   display:none;
 }
 
-.gif_t {
-  display:none;
-}
 
 @media (min-width: 400px) and (max-width: 1024px) {
   html {
@@ -219,23 +216,14 @@ a:focus {
   .gif_o {
     display:flex;
     position:absolute;
-    width: 50%;
+    width: 100%;
     height: auto;
     z-index:-10;
-    top:60%;
-    left:10%;
+    top:50%;
+    left:0;
     right:0;
     opacity: 30%;
+    transform: rotate(180deg);
   }
-  .gif_t {
-    display:flex;
-    position:absolute;
-    width: 50%;
-    height: auto;
-    z-index:-10;
-    top:60%;
-    left:50%;
-    right:0;
-    opacity: 30%;
-  }
+
 }

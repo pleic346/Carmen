@@ -165,7 +165,7 @@ b{
     font-size: 20px;
 }
 
-@media (min-width: 400px) and (max-width: 1024px) {
+@media (min-width: 400px) and (max-width: 1024px)  {
 
   html{
   width:100%;

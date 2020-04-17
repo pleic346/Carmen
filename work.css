@@ -132,9 +132,16 @@ html {
     width:500px;
     align-self:center;
     padding:25px;
+    background:none;
+    z-index:-10px;
   }
 
-  @media (min-width: 400px) and (max-width: 1024px) {
+  .flex-image:hover{
+    opacity:70%;
+    filter:  blur(2px);
+  }
+
+    @media (min-width: 400px) and (max-width: 1024px)  {
    html{
      overflow-x: hidden;
      overflow-y:auto;
