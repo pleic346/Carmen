@@ -153,7 +153,7 @@ a:focus {
 
     html{
       overflow-x:hidden;
-      overflow-y:hidden;
+      overflow-y:auto;
     }
 
     a {
@@ -259,7 +259,7 @@ a:focus {
       top: 24%;
       width: 300px;
       height: auto;
-      margin-top: 220px; /* Half the height */
+      margin-top: 190px; /* Half the height */
       margin-left: 80px;
       color:white;
       font-family: 'Anton', sans-serif;
