@@ -17,8 +17,6 @@ html{
   font-family: Impact;
   color:white;
   font-size: 12px;
-  letter-spacing: 1px;
-  word-spacing: 1px;
 }
 
 strong {
@@ -256,7 +254,7 @@ a:focus {
 
     .bio{
       position: absolute;
-      top: 24%;
+      top: 29%;
       width: 300px;
       height: auto;
       margin-top: 190px; /* Half the height */
@@ -264,8 +262,6 @@ a:focus {
       color:white;
       font-family: 'Anton', sans-serif;
       font-size: 9px;
-      letter-spacing: 0px;
-      word-spacing: 0px;
       -webkit-text-stroke:0px;
 }
 
@@ -459,7 +455,7 @@ h2{
 
     .bio{
       position: absolute;
-      top: 15%;
+      top: 19%;
       width: 240px;
       height: auto;
       margin-top: 190px; /* Half the height */
