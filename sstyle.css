@@ -126,10 +126,6 @@ a:focus {
   margin-left:7%;
 }
 
-.gif_o {
-  display:none;
-}
-
 
 @media (min-width: 400px) and (max-width: 1024px) {
   html {
