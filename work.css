@@ -135,15 +135,36 @@ html {
   }
 
   @media (min-width: 400px) and (max-width: 1024px) {
-
+   html{
+     overflow-x: hidden;
+     overflow-y:auto;
+   }
+    a {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 0.5px white;
+    }
+    a:hover {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1.8px cyan;
+    }
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:focus {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1.8px white;
+    }
     .work {
       margin-left: 25px;
       margin-top: 0;
       position: absolute;
       color: black;
       font-size: 22px;
-      font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px white;
+      font-family: 'Anton', sans-serif;      
       display:flex;
     }
     .about {
@@ -153,7 +174,6 @@ html {
       color: black;
       font-size: 22px;
       font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px white;
     }
     
     .contact {
@@ -163,7 +183,6 @@ html {
       color: black;
       font-size: 22px;
       font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px white;
     }
   
     .logo {

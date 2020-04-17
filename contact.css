@@ -159,13 +159,30 @@ html{
   
   @media (min-width: 400px) and (max-width: 1024px) {
 
-    *{
-
-    }
     html {
       overflow-x:hidden;
       overflow-y: auto;
 
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 0.5px white;
+    }
+    a:hover {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1.8px red;
+    }
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:focus {
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1.8px white;
     }
 
     .work {
@@ -174,8 +191,7 @@ html{
       position: absolute;
             font-size: 22px;
             font-family: 'Anton', sans-serif;
-            -webkit-text-stroke: 0.5px red;
-      display:flex;
+            display:flex;
     }
     .about {
       margin-left: 110px;
@@ -183,7 +199,6 @@ html{
       position: absolute;
       font-size: 22px;
       font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px red;
     }
     
     .contact {
@@ -192,7 +207,6 @@ html{
       position: absolute;
       font-size: 22px;
       font-family: 'Anton', sans-serif;
-      -webkit-text-stroke: 0.5px red;
     }
 
     .logo {
@@ -208,11 +222,11 @@ html{
     .side{
       font-family: 'Anton', sans-serif;
       position:fixed;
-      bottom:55px;
-      margin-left: -25px;
+      bottom:50px;
+      margin-left: -20px;
       color: black;
       font-size: 35px;
-      z-index: 5;
+      z-index: 5; 
       transform: rotate(-90deg);
     }
     .rectangle {
@@ -247,9 +261,17 @@ html{
       font-size: 100px;
       letter-spacing: 1.5px;
       word-spacing: 2px;
-            transition:none;
+    }
+
+    .email {
+      transition:transform 0;
+    }
+    
+    .email:hover {
+      -webkit-transform:none; /* or some other value */
       transform:none;
     }
+  
   
     .bio {
       position:absolute;
@@ -262,7 +284,7 @@ html{
       color:magenta;
       font-size: 11px;
       word-spacing: 2px;
-      -webkit-text-stroke: none;
+      -webkit-text-stroke: 0px;
       font-family: 'Anton', sans-serif;
     }
 

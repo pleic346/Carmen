@@ -126,8 +126,38 @@ a:focus {
   margin-left:7%;
 }
 
-@media (min-width: 400px) and (max-width: 1024px) {
+.gif_o {
+  display:none;
+}
 
+.gif_t {
+  display:none;
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+    overflow-y:hidden;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px yellow;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 1.8px white;
+  }
   .work {
     margin-left: 25px;
     margin-top: 0;
@@ -135,7 +165,6 @@ a:focus {
     color: black;
     font-size: 22px;
     font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
         display:flex;
   }
   .about {
@@ -145,7 +174,6 @@ a:focus {
     color: black;
     font-size: 22px;
     font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
     }
   
   .contact {
@@ -155,7 +183,6 @@ a:focus {
     color: black;
     font-size: 22px;
     font-family: 'Anton', sans-serif;
-    -webkit-text-stroke: 0.5px white;
     }
 
   .logo {
@@ -184,9 +211,31 @@ a:focus {
     top:50%;
     left:10%;
       color: white;
-      font-size: 20px;
+      font-size: 14px;
       letter-spacing: 1px;
       font-family: 'Anton', sans-serif;
             transform: none;
+  }
+  .gif_o {
+    display:flex;
+    position:absolute;
+    width: 50%;
+    height: auto;
+    z-index:-10;
+    top:60%;
+    left:10%;
+    right:0;
+    opacity: 30%;
+  }
+  .gif_t {
+    display:flex;
+    position:absolute;
+    width: 50%;
+    height: auto;
+    z-index:-10;
+    top:60%;
+    left:50%;
+    right:0;
+    opacity: 30%;
   }
 }
