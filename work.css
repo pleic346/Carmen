@@ -457,6 +457,7 @@ html {
       flex-direction: row;
       flex-wrap:wrap;
       justify-content:center;
+      display:none;
       align-items:center;
     }
     .flex-im {
@@ -467,6 +468,7 @@ html {
       padding:25px;
       background:none;
       z-index:-10px;
+      display:none;
     }
 
     
