@@ -342,6 +342,11 @@ a:focus {
     color: black;
     -webkit-text-stroke: 1.8px white;
   }
+  .navigation {
+    position:relative;
+    top:0;
+    left:0;
+  }
   .work {
     margin-left: 15px;
     margin-top: 0;
@@ -496,5 +501,23 @@ a:focus {
     padding: 25px;
     background: none;
     z-index: -10px;
+  }
+  .flexbox{
+    height:auto;
+    width:300px;
+    position:relative;
+    margin:25px;
+  }
+  
+  .flexbox img {
+    height:auto;
+    width:300px;
+  }
+  
+  .flexbox-caption {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
   }
 }
