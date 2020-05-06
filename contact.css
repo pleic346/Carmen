@@ -5,14 +5,10 @@ html{
     background-color: black;
     cursor:auto;
     overflow:hidden;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
  }
 
  body{
   overflow:hidden;
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
  }
 
   .work {
@@ -46,28 +42,21 @@ html{
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px white;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
   a:hover {
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px red;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
+
   a:visited {
     text-decoration: none;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
   
   a:focus {
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px white;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
 
   .logo{
@@ -78,14 +67,10 @@ html{
     position:fixed;
     -webkit-transition: -webkit-transform .6s ease-in-out;
     transition:         transform .6s ease-in-out;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>👉</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
   .logo:hover{
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
-            cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>👉</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
 
   .work{
@@ -148,21 +133,15 @@ html{
     letter-spacing: 1.5px;
     word-spacing: 2px;
     -webkit-text-stroke: 0.4px black;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
 
   .email {
     transition:transform 0.25s ease;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
   
   .email:hover {
     -webkit-transform:scale(2.1); /* or some other value */
     transform:scale(2.1);
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
 
   .bio{
@@ -178,8 +157,6 @@ html{
     font-size: 11px;
     word-spacing: 2px;
     -webkit-text-stroke: 0.1px black;
-    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
-
   }
   
   @media (min-width: 400px) and (max-width: 1024px) {
