@@ -3,10 +3,12 @@ html {
     width:100%;
     height:auto;
     background-color: black;
-    cursor:auto;
     overflow-x: hidden;
     overflow-y:auto;
-  }
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>💦</text></svg>") 16 0,auto; /*!emojicursor.app*/  }
+
+  body{
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>💦</text></svg>") 16 0,auto; /*!emojicursor.app*/  }
   .work {
     transition:transform 0.25s ease;
   }
@@ -38,20 +40,28 @@ html {
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px white;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
   a:hover {
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px cyan;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
   a:visited {
     text-decoration: none;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
   
   a:focus {
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1.8px white;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
 
   .logo {
@@ -62,10 +72,14 @@ html {
     position:fixed;
     -webkit-transition: -webkit-transform .6s ease-in-out;
     transition:         transform .6s ease-in-out;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>👉</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
   }
   .logo:hover {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+            cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>👉</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
   }
   .work{
     margin-left:50px;
@@ -127,6 +141,7 @@ html {
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='31' height='37' viewport='0 0 100 100' style='fill:black;font-size:19px;'><text y='50%'>💦</text></svg>") 16 0,auto; /*!emojicursor.app*/
   }
   
   .flex-image {
@@ -137,6 +152,8 @@ html {
     padding:25px;
     background:none;
     z-index:-10px;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
 
   .contain{
@@ -150,6 +167,8 @@ html {
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
   
   .flex-im {
@@ -163,10 +182,14 @@ html {
     display:block;
     /* background:black; */
     transition:transform 0.25s ease;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
   }
 
   .flex-im:hover{
     opacity:30%;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='47' height='56' viewport='0 0 100 100' style='fill:black;font-size:28px;'><text y='50%'>😱</text></svg>") 16 0,pointer; /*!emojicursor.app*//*!emojicursor.app*/
+
 
   }
 
