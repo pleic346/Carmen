@@ -320,6 +320,8 @@ a:focus {
     overflow-y: auto;
   }
   html {
+    overflow-x: hidden;
+    overflow-y: auto;
     display: block;
     overflow-x: auto;
   }
@@ -343,7 +345,7 @@ a:focus {
     -webkit-text-stroke: 1.8px white;
   }
   .navigation {
-    position:relative;
+   position:fixed;
     top:0;
     left:0;
   }
@@ -463,7 +465,7 @@ a:focus {
     width: 100%;
     max-width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -486,7 +488,7 @@ a:focus {
     width: 100%;
     max-width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -504,14 +506,14 @@ a:focus {
   }
   .flexbox{
     height:auto;
-    width:300px;
+    width:250px;
     position:relative;
     margin:25px;
   }
   
   .flexbox img {
     height:auto;
-    width:300px;
+    width:250px;
   }
   
   .flexbox-caption {
